@@ -1,5 +1,7 @@
 这是一个用FreeMarker生成Word文档的dome
+
 copy :https://blog.csdn.net/renfufei/article/details/53283320
+因为好用，所以自己稍微整理了一下，留下来自己用
 
 需要从一个word文件中提取出 document.xml 这个xml文件，使用FreeMarker 标签重写。 建议先从设计好的word中提取，可以少设置一些其他页面格式，比如页面大小，页面方向等。
 
