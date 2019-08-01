@@ -12,3 +12,14 @@ copy :https://blog.csdn.net/renfufei/article/details/53283320
 model 包下的export_sample.docx 为一个替换过程中被替换document.xml的壳，内容可以随意，可以理解为一个没有内容的word文件。
 
 bean对象需要和模板文件对应。
+
+记录几个FreeMarker 常用标签
+<#list rows as row>
+      <#--取list的循环下标 -->
+      ${row_index}
+      <#--取list的size -->
+      ${list?size}
+<#/list>
+
+
+对了，变量声明在循环体内好呢还是循环体外好呢？
