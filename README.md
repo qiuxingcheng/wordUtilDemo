@@ -1,7 +1,9 @@
 这是一个用FreeMarker生成Word文档的dome
 
 copy :https://blog.csdn.net/renfufei/article/details/53283320
-因为好用，所以自己稍微整理了一下，留下来自己用
+      https://github.com/cncounter/translation/blob/master/tiemao_2016/22_xml_word_freemarker/xml_word_freemarker.md
+      
+因为好用，所以自己稍微整理了一下，留下来自己用。本人已经在此基础上实现了word动态生成（主要指table），包括合并行，合并列，重复标题行，多表格分页嵌套等。谢谢铁锚大神。
 
 需要从一个word文件中提取出 document.xml 这个xml文件，使用FreeMarker 标签重写。 建议先从设计好的word中提取，可以少设置一些其他页面格式，比如页面大小，页面方向等。
 
